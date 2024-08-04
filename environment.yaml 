@@ -1,0 +1,16 @@
+name: vit_dev
+
+channels:
+- conda-forge
+- nvidia
+
+dependencies:
+- python
+- matplotlib
+- ipython
+- jax[cuda12]
+- flax
+- pytest
+- jupyterlab
+- tensorboard
+- pytorch
